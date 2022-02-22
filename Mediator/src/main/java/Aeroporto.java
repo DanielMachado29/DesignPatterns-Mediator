@@ -8,7 +8,7 @@ public class Aeroporto implements ComunicacaoAerea{
     }
 
     public String recebePermissaoDePousar(String mensagem){
-        return "O Aeroporto, recebeu o seu comunicado, seu navio tem permissão";
+        return "O Aeroporto, recebeu o seu comunicado, seu aviao tem permissão";
     }
 
     public  String recebeAvisoDeColisao(String mensagem){
@@ -16,7 +16,7 @@ public class Aeroporto implements ComunicacaoAerea{
     }
 
     public  String recebeAvisoDeFalhaMecanica(String mensagem){
-        return "O Aeroporto, enviamos equipe de manutenção ao seu local";
+        return "O Aeroporto, enviou sugestoes de manutenção";
     }
 
 }
